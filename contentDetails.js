@@ -19,9 +19,9 @@ function dynamicContentDetails(ob)
     imageSectionDiv.id = 'imageSection'
 
     let imgTag = document.createElement('img')
-     imgTag.id = 'imgDetails'
-     //imgTag.id = ob.photos
-     imgTag.src = ob.preview
+    imgTag.id = 'imgDetails'
+    //imgTag.id = ob.photos
+    imgTag.src = ob.preview
 
     imageSectionDiv.appendChild(imgTag)
 
@@ -43,7 +43,7 @@ function dynamicContentDetails(ob)
     detailsDiv.id = 'details'
 
     let h3DetailsDiv = document.createElement('h3')
-    let h3DetailsText = document.createTextNode('Rs ' + ob.price)
+    let h3DetailsText = document.createTextNode('Ksh ' + ob.price)
     h3DetailsDiv.appendChild(h3DetailsText)
 
     let h3 = document.createElement('h3')
